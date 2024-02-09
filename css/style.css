@@ -177,7 +177,7 @@ p {
 }
 
 .font3-8{
-    font-family: font;
+    font-family: font3;
     font-size: 1.8em;
     color:rgb(255, 0, 140);
 }
@@ -194,6 +194,25 @@ p {
     font-size: 1.8em;
     color:rgb(251, 1, 255);
     font-weight: bolder;
+}
+
+.font3-9{
+    font-family: font3;
+    font-size: 1.8em;
+    color:rgb(237, 20, 237);
+}
+
+.font3-10{
+    font-family: font3;
+    font-size: 1.8em;
+    color:rgb(255, 0, 140);
+}
+
+.font4-6 {
+    font-family: font4;
+    font-size: 1.8em;
+    color:rgb(255, 0, 0);
+    font-weight: bold;
 }
 
 .increase1{
@@ -218,108 +237,17 @@ p {
     font-weight: bold;
 }
 
-#line1 {
+#line1, #line4, #line5, #line8, #line11, #line13, #line16, #line17, #line21, #line28, #line29, #line36, #line37, #line44, #line45, #line53{
     font-family: font1;
 }
-#line2 {
+#line2, #line6, #line7, #line9, #line10, #line12, #line15, #line18, #line23, #line26, #line31, #line34, #line39, #line47, #line50, #line56{
     font-family: font3;
 }
-#line3 {
+#line3, #line14, #line19, #line22, #line27, #line30, #line35, #line38, #line41, #line43, #line46, #line49, #line51, #line54{
     font-family: font2;
 }
-#line4 {
-    font-family: font1;
-}
-#line5 {
-    font-family: font1;
-}
-#line6 {
-    font-family: font3;
-}
-#line7 {
-    font-family: font3;
-    font-weight: bold;
-}
-#line8 {
+#line20, #line24, #Line25, #line32, #line33, #line40, #line42, #line48, #line52, #line55 {
     font-family: font4;
-}
-#line9 {
-    font-family: font3;
-}
-#line10 {
-    font-family: font3;
-}
-#line11 {
-    font-family: font1;
-}
-#line12 {
-    font-family: font1;
-}
-#line13 {
-    font-family: font1;
-}
-#line14 {
-    font-family: font2;
-}
-#line15 {
-    font-family: font3;
-}
-#line16 {
-    font-family: font4;
-}
-#line17 {
-    font-family: font4;
-}
-#line18 {
-    font-family: font3;
-}
-#line19 {
-    font-family: font2;
-}
-#line20 {
-    font-family: font1;
-}
-#line21 {
-    font-family: font1;
-}
-#line22 {
-    font-family: font2;
-}
-#line23 {
-    font-family: font3;
-}
-#line24 {
-    font-family: font4;
-}
-#line25 {
-    font-family: font4;
-}
-#line26 {
-    font-family: font3;
-}
-#line27 {
-    font-family: font2;
-}
-#line28 {
-    font-family: font1;
-}
-#line29 {
-    font-family: font1;
-}
-#line30 {
-    font-family: font2;
-}
-#line31 {
-    font-family: font3;
-}
-#line32 {
-    font-family: font4;
-}
-#line33 {
-    font-family: font4;
-}
-#line34 {
-    font-family: font3;
 }
 
 
