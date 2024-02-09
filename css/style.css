@@ -1,5 +1,21 @@
+@font-face {
+    font-family: font1;
+    src: url(../oswald.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../Kanit-Black.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(../Lora-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font4;
+    src: url(../ProtestStrike.ttf);
+}
 body {
-    background-image: url('https://github.com/LUGC-ozenderm/assignment-2-CSS/blob/main/images/background.jpg?raw=true');
+    background-image: url('https://github.com/LUGC-ozenderm/assignment-2-CSS/blob/main/images/background2.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
     color: #000;
@@ -8,23 +24,313 @@ body {
 }
 
 p {
-    color: #000;
-    font-size: 1.2em;
+    color: white;
+    font-size: 1.7em;
     line-height: 1.5;
     margin-bottom: 20px;
+    font-family: font1;
+}
+.font1 {
+    font-family: font1;
+    font-size: 2em;
+}
+.font2 {
+    font-family: font2;
+    font-size: 2em;
+}
+.font3 {
+    font-family: font3;
+    font-size: 2em;
+}
+.font4 {
+    font-family: font4;
+    font-size: 2em;
 }
 
-#line3, #line9, #line18, #line20 {
-    color: #ff0000;
+.font3-1 {
+    font-family: font3;
+    font-size: 2em;
+    color:deeppink;
+}
+
+.font2-1{
+    font-family: font2;
+    font-size: 2em;
+    color:greenyellow;
+}
+
+.font2-2{
+    font-family: font2;
+    font-size: 2em;
+    color: aqua;
+}
+
+.font4-2{
+    font-family: font4;
+    font-size: 1.6em;
+    color:blueviolet;
+}
+
+.font4-1 {
+    font-family: font4;
+    font-size: 2em;
+    color:lightgreen;
+}
+
+.font4-3 {
+    font-family: font4;
+    font-size: 2em;
+    color:rgb(254, 41, 41);
+}
+
+.font3-2 {
+    font-family: font3;
+    font-size: 2em;
+    color:rgb(211, 31, 211);
+}
+
+.font2-3 {
+    font-family: font2;
+    font-size: 1.5em;
+    color:rgb(6, 253, 6);
+}
+
+.font3-3 {
+    font-family: font3;
+    font-size: 1.7em;
+    color:rgb(255, 0, 0);
     font-weight: bold;
 }
 
-#line4, #line10, #line12, #line13 {
-    color: #008000;
+.font3-4 {
+    font-family: font3;
+    font-size: 1.7em;
+    color:rgb(228, 35, 199);
     font-weight: bold;
 }
 
-#line6, #line7, #line14, #line15, #line16, #line17, #line19 {
-    color: #0000ff;
+.font4-4 {
+    font-family: font4;
+    font-size: 1.7em;
+    color:rgb(255, 255, 0);
     font-weight: bold;
 }
+
+.font2-4 {
+    font-family: font2;
+    font-size: 1.7em;
+    color:rgb(183, 107, 21);
+    font-weight: bold;
+}
+
+.font1-2{
+    font-family: font1;
+    font-size: 1.7em;
+    color:rgb(212, 58, 27);
+    font-weight: bold;
+}
+
+.font3-5{
+    font-family: font3;
+    font-size: 1.7em;
+    color:rgb(255, 0, 195);
+    font-weight: bold;
+}
+
+.font1-3{
+    font-family: font1;
+    font-size: 1.7em;
+    color:rgb(42, 156, 238);
+    font-weight: bold;
+}
+
+.font2-5{
+    font-family: font2;
+    font-size: 1.7em;
+    color:rgb(248, 52, 30);
+    font-weight: bold;
+}
+
+.font3-6{
+    font-family: font3;
+    font-size: 1.7em;
+    color:rgb(71, 12, 250);
+    font-weight: bold;
+}
+
+.font2-6{
+    font-family: font2;
+    font-size: 1.7em;
+    color:rgb(55, 240, 107);
+}
+
+.font2-7{
+    font-family: font2;
+    font-size: 1.7em;
+    color:rgb(211, 228, 21);
+}
+
+.font2-8{
+    font-family: font2;
+    font-size: 1.8em;
+    color:rgb(26, 37, 237);
+}
+
+.font3-8{
+    font-family: font;
+    font-size: 1.8em;
+    color:rgb(255, 0, 140);
+}
+
+.font4-5 {
+    font-family: font4;
+    font-size: 1.7em;
+    color:rgb(241, 222, 79);
+    font-weight: bold;
+}
+
+.font2-9{
+    font-family: font2;
+    font-size: 1.8em;
+    color:rgb(251, 1, 255);
+    font-weight: bolder;
+}
+
+.increase1{
+    font-size: 1.5em;
+    color: cyan;
+}
+.increase2{
+    font-size: 1.7em;
+    color: orange;
+
+}
+.increase3{
+    font-size: 2.1em;
+    color: gold;
+    text-shadow: #000 4px 4px 7px;
+}
+
+.size-change1{
+    font-size: 1.4em;
+    color: cyan;
+    font-family: font3;
+    font-weight: bold;
+}
+
+#line1 {
+    font-family: font1;
+}
+#line2 {
+    font-family: font3;
+}
+#line3 {
+    font-family: font2;
+}
+#line4 {
+    font-family: font1;
+}
+#line5 {
+    font-family: font1;
+}
+#line6 {
+    font-family: font3;
+}
+#line7 {
+    font-family: font3;
+    font-weight: bold;
+}
+#line8 {
+    font-family: font4;
+}
+#line9 {
+    font-family: font3;
+}
+#line10 {
+    font-family: font3;
+}
+#line11 {
+    font-family: font1;
+}
+#line12 {
+    font-family: font1;
+}
+#line13 {
+    font-family: font1;
+}
+#line14 {
+    font-family: font2;
+}
+#line15 {
+    font-family: font3;
+}
+#line16 {
+    font-family: font4;
+}
+#line17 {
+    font-family: font4;
+}
+#line18 {
+    font-family: font3;
+}
+#line19 {
+    font-family: font2;
+}
+#line20 {
+    font-family: font1;
+}
+#line21 {
+    font-family: font1;
+}
+#line22 {
+    font-family: font2;
+}
+#line23 {
+    font-family: font3;
+}
+#line24 {
+    font-family: font4;
+}
+#line25 {
+    font-family: font4;
+}
+#line26 {
+    font-family: font3;
+}
+#line27 {
+    font-family: font2;
+}
+#line28 {
+    font-family: font1;
+}
+#line29 {
+    font-family: font1;
+}
+#line30 {
+    font-family: font2;
+}
+#line31 {
+    font-family: font3;
+}
+#line32 {
+    font-family: font4;
+}
+#line33 {
+    font-family: font4;
+}
+#line34 {
+    font-family: font3;
+}
+
+
+#sideLeft, #sideRight {
+    width: 40%;
+}
+#sideLeft {
+    float: left;
+    margin-right: 20px;
+}
+#sideRight {
+    float: right;
+    margin-left: 20px;
+}  
